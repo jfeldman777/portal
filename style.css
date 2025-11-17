@@ -1,0 +1,112 @@
+body {
+    background-color: bisque;
+    margin:0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer{
+    font-family: Arial, Helvetica, sans-serif;
+    height:52px;
+    margin:auto;
+    width:1400px;
+    background-color: rgb(91, 184, 184);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+img{padding:5px;}
+
+h1 {
+font-size: 1.5em;
+padding:12px;
+}
+
+ul{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+
+li {padding: 10px;
+    border:1px solid gray;
+    padding: 6px;
+    background-color: rgb(217, 255, 0);
+    margin:10px;
+    width:80px;
+     text-align: center;
+-webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 5px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 5px 5px rgba(0,0,0,0);
+
+     
+     &:hover{
+background-color: rgb(239, 234, 234);
+     }
+
+     &:active{
+        background-color: rgb(183, 148, 215);
+     }
+
+     &:visited{
+       background-color: none;
+
+     }
+}    
+a{
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+main {
+    background-color: rgb(113, 133, 150);
+    width: 1400px;;
+    min-height: 88vh;
+    margin:10px auto;
+
+    display: grid;
+    
+    height: 100%; /* или фиксированная высота */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    
+
+}
+section {
+    font-size: 1.1em;
+    margin:20px;
+    padding:20px;
+
+
+    border-radius: 10px;
+    text-align: center;
+
+    line-height: 24px;
+
+    background-color: rgb(109, 109, 234);
+    display: flex;
+    justify-content: center; /* по горизонтали */
+    align-items: center;     /* по вертикали */
+   
+}
+
+section:hover{
+            transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+    background-color:blanchedalmond;
+ 
+    }
+
+    
+   a>section {
+        background-color: blanchedalmond;
+
+    display: flex;
+    justify-content: center; /* по горизонтали */
+    align-items: center;     /* по вертикали */
+   }
