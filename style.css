@@ -33,7 +33,7 @@ ul{
 }
 
 
-li {padding: 10px;
+li {padding: 5px;
     border:1px solid gray;
     padding: 6px;
     background-color: rgb(217, 255, 0);
@@ -67,7 +67,7 @@ main {
     background-color: rgb(113, 133, 150);
     width: 100%;
     min-height: 88vh;
-    margin:10px auto;
+    margin:5px auto;
 
     display: grid;
     
@@ -99,8 +99,8 @@ main {
 
 section {
     font-size: 1.1em;
-    margin:20px;
-    padding:20px;
+    margin:5px;
+    padding:0px;
 
 
     border-radius: 10px;
@@ -137,7 +137,9 @@ section:hover{
 }
 .map-block {
     text-align: center;
-    margin: 20px auto;
+    margin: 0px auto;
+    display:flex;
+    flex-direction: column;
 }
 
 .map-img {
@@ -154,8 +156,8 @@ section:hover{
 }
 
 .map-caption {
-    margin-top: 10px;
+    margin-top: 0;
     font-size: 18px;
     line-height: 1.4;
-    display:block;
+    
 }
