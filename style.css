@@ -11,7 +11,7 @@ header, footer{
     font-family: Arial, Helvetica, sans-serif;
     height:52px;
     margin:auto;
-    width:1400px;
+    width:100%;
     background-color: rgb(91, 184, 184);
     display:flex;
     align-items: center;
@@ -65,7 +65,7 @@ a{
 
 main {
     background-color: rgb(113, 133, 150);
-    width: 1400px;;
+    width: 100%;
     min-height: 88vh;
     margin:10px auto;
 
@@ -95,6 +95,7 @@ main {
         grid-template-rows: auto;
     }
 }
+
 
 section {
     font-size: 1.1em;
@@ -129,3 +130,8 @@ section:hover{
     justify-content: center; /* по горизонтали */
     align-items: center;     /* по вертикали */
    }
+
+   .page {
+    width: min(1400px, 100%);
+    margin: 0 auto;
+}
