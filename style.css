@@ -135,3 +135,27 @@ section:hover{
     width: min(1400px, 100%);
     margin: 0 auto;
 }
+.map-block {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.map-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.map-img:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+.map-caption {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 1.4;
+    display:block;
+}
