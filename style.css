@@ -161,3 +161,34 @@ section:hover{
     line-height: 1.4;
     
 }
+
+.hover-box {
+    padding: 20px;
+    background: #ddd;
+    color: black;
+    display: inline-block;
+    transition: 0.25s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+/* скрываем второй текст */
+.hover-box .text-hover {
+    display: none;
+}
+
+/* при наведении */
+.hover-box:hover {
+    background: #2a4b7c;  /* фон */
+    color: white;         /* общий цвет */
+}
+
+.hover-box:hover .text-default {
+    display: none;
+}
+
+.hover-box:hover .text-hover {
+    display: inline;
+     &>a{color: white;         /* общий цвет */}
+
+}
